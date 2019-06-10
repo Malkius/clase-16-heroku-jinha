@@ -1,0 +1,31 @@
+/* FUENTES */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: #949FA3;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navegacion a {
+    color: #675296;
+    text-decoration: none;
+}
+
+.navegacion a:hover {
+    color: rgb(99, 238, 99);
+}
+
+.pie {
+    font-size: 12px;
+    padding-top: 500px;
+    display: flex;
+    justify-content: center;
+}
