@@ -1,21 +1,18 @@
-/* FUENTES */
+/* INDEX.HTML */
 body {
+    padding: 20px 10px 10px 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
-body {
-    background-color: #949FA3;
-}
-
 .navegacion {
+    background-color: #F1EBE4;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .navegacion a {
-    color: #675296;
     text-decoration: none;
 }
 
@@ -29,3 +26,15 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.contenido {
+    display: flex;
+    justify-content: center;
+}
+
+/* ABOUT.HTML */
+
+
+
+/* PORTFOLIO.HTML */
+

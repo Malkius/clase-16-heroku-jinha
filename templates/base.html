@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}{% endblock title %}</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="../static/CSS/estilos.css">
+    </head>
+
+    <body>
+        <nav class="navegacion">
+            <a href="/">Alberto Web</a>
+            <a href="/about">Sobre mí</a>
+            <a href="/portfolio">Portfolio</a>
+        </nav>
+
+        <section class="contenido">
+            {% block content %}
+            {% endblock content %}
+        </section>
+
+        <footer class="pie">
+            <p>Todos los derechos reservados &#174;</p>
+        </footer>
+
+    </body>
+</html>
