@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %] Bugle {% endblock title %]
+
+{% block content %}
+
+    <header class="contenedor-cabecera">
+        <div class="inicio-home">
+            <nav class="home">
+                <a href="#">Bugle</a>
+            </nav>
+            Cuenta
+        </div>
+        <div class="busqueda">
+            <input type="search" value="Buscar en la cuenta de Bugle" size="100"/>
+        </div>
+        <div class="iconos-navegacion">
+            <nav class="navegacion">
+                <a href="#"><img class="aplicacion" src="../img/apps.svg" alt="aplicaciones"/></a>
+                <a href="#"><img class="perfil" src="../img/login.svg" alt="perfil"/></a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="todo">
+        <div class="navegacion-izquierda">
+            <a href="#"><img class="icono-inicio-izq" src="../img/perfil-usuario.svg" alt="inicio"/><span>Inicio</span></a>
+            <a href="#"><img class="icono-info-personal-izq" src="../img/informacion-personal.svg" alt="info"/><span>Información personal</span></a>
+            <a href="#"><img class="icono-datos-personalizacion-izq" src="../img/datos-y-personalizacion.svg" alt="Datos"/><span>Datos y personalización</span></a>
+            <a href="#"><img class="icono-seguridad-izq" src="../img/candado.svg" alt="Seguridad"/><span>Seguridad</span></a>
+            <a href="#"><img class="icono-contactos-izq" src="../img/contactos.svg" alt="Contactos"/><span>Contactos</span></a>
+            <a href="#"><img class="icono-pagos-izq" src="../img/metodo-pago.svg" alt="Pagos"/><span>Método de pago</span></a>
+            <a href="#"><img class="icono-ayuda-izq" src="../img/interrogacion.svg" alt="Ayuda"/><span>Ayuda</span></a>
+            <a href="#"><img class="icono-comentarios-izq" src="../img/comentarios.svg" alt="Comentarios"/><span>Enviar comentarios</span></a>
+        </div>
+
+        <div class="principal-centro">
+            <div class="principal">
+                <img class="icono-presentacion" src="../img/perfil-usuario.svg"/>
+                <h1>Bienvenido profesor Falken</h1>
+                <h2 class="h2-texto">Gestione su información, privacidad y seguridad para mejorar su experiencia en Bugle.</h2>
+            </div>
+
+            <section class="contenedor-cuadricula">
+                <div class="revisa">
+                    <h2>Revisa tu configuración de privacidad</h2>
+                    <div>
+                        Sigue los pasos detallados de esta guía para elegir la configuración de privacidad de tu cuenta.
+                    </div>
+                    <div>
+                        Empezar
+                    </div>
+                </div>
+
+                <div class="problemas">
+                    <h2>Se han detectado problemas de seguridad</h2>
+                    <div>
+                        Protege tu cuenta ahora mismo resolviendo estos problemas.
+                    </div>
+                    <div>
+                        Proteger la cuenta
+                    </div>
+                </div>
+
+                <div class="personaliza">
+                    <h2>Personaliza Bugle</h2>
+                    <div>
+                        Consulta los datos almacenados en tu cuenta de Google y elige qué actividad se debe guardar para personalizar tu experiencia en Bugle.
+                    </div>
+                    <div>
+                        Gestionar tus datos y opciones de personalización
+                    </div>
+                </div>
+
+                <div class="almacenamiento">
+                    <h2>Almacenamiento de la cuenta</h2>
+                    <div>
+                        El espacio de almacenamiento se comparte entre los servicios de Bugle.
+                    </div>
+                    <div>
+                        Gestionar almacenamiento
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+{% endblock content %}

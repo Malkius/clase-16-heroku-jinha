@@ -1,0 +1,172 @@
+/** General **/
+body {
+    font-family: "fira-sans", sans-serif;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+/** Imágenes **/
+.aplicacion {
+    height: 25px;
+    width: 25px;
+}
+
+.perfil {
+    height: 25px;
+    width: 25px;
+}
+
+.icono-presentacion {
+    height: 125px;
+    width: 125px;
+}
+
+.icono-inicio-izq {
+    height: 25px;
+    width: 25px;
+}
+
+.icono-info-personal-izq {
+    height: 25px;
+    width: 25px;
+}
+
+.icono-datos-personalizacion-izq {
+    height: 25px;
+    width: 25px;
+}
+
+.icono-seguridad-izq {
+    height: 25px;
+    width: 25px;
+}
+
+.icono-contactos-izq {
+    height: 25px;
+    width: 25px;
+}
+
+.icono-pagos-izq {
+    height: 25px;
+    width: 25px;
+}
+
+.icono-ayuda-izq {
+    height: 25px;
+    width: 25px;
+}
+
+.icono-comentarios-izq {
+    height: 25px;
+    width: 25px;
+}
+
+/** Navegación superior **/
+.contenedor-cabecera {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.inicio-home {
+    width: 10%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.busqueda {
+    width: 80%;
+    opacity: .3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.iconos-navegacion {
+    width: 5%;
+    padding-right: 10px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home a {
+    color: #00897B;
+    text-decoration: none;
+}
+
+/** Navegación izquierda **/
+.navegacion-izquierda {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.navegacion-izquierda a{
+    text-decoration: none;
+    color: #3C4043;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/** Principal **/
+.todo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+.principal-centro {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-texto {
+    color: #5F6368;
+}
+
+.contenedor-cuadricula {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+    grid-gap: 3%;
+}
+
+.revisa {
+    border: 1px solid grey;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.problemas {
+    border: 1px solid grey;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.personaliza {
+    border: 1px solid grey;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.almacenamiento {
+    border: 1px solid grey;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
