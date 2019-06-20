@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %] Bugle {% endblock title %]
+
+{% block content %}
+            <nav class="navegacion">
+                <a href="#">Tu Email</a>
+                <a href="https://www.google.es/imghp?hl=es&tab=wi&authuser=0">Imágenes</a>
+                <a href="#"><img class="aplicacion" src="../IMG/apps-svgrepo-com.svg" alt="Aplicaciones"/></a>
+                <a href="#"><img class="login" src="../IMG/user-profile-svgrepo-com.svg"/></a>
+            </nav>
+
+            <div class="principal">
+                <h1 class="texto-logo">Bugle</h1>
+                <img class="logo-bugle" src="../IMG/bugles-horn-svgrepo-com.svg" alt="logo-bugle"/>
+            </div>
+
+            <div class="contenedor-busqueda">
+                <input class="escribir" type="search" id="Buscar" name="Buscar"/>
+                <div class="botones">
+                    <button>Buscar con Bugle</button>
+                    <button>Cruza los dedos</button>
+                </div>
+            </div>
+
+            <footer class="contenedor-footer">
+                <div class="pais">
+                    Estamos en España
+                </div>
+                <div class="contenedor-navegacion">
+                    <nav class="navegacion-a">
+                        <a href="#">Pub</a>
+                        <a href="#">Empresa</a>
+                        <a href="#">Nosotros</a>
+                    </nav>
+                    <nav class="navegacion-b">
+                        <a href="#">Privacidad</a>
+                        <a href="#">Condiciones</a>
+                        <a href="#">Configuración</a>
+                    </nav>
+                </div>
+            </footer>
+            
+{% endblock content %}

@@ -1,7 +1,17 @@
 {% extends "base.html" %}
 
+{% block estilos %}
+    <link rel="stylesheet" href="/static/css/test.css">
+{% endblock %}
+
 {% block title%}Alberto Web{% endblock title%}
 
 {% block content %}
-    <h1>Bienvenidos a mi Web</h1>
+    <div class="test">
+        <h1>Bienvenidos a mi Web</h1>
+        <div class="hora">
+            <p>{{texto_hora}}</p>
+            <p>{{fecha}}</p>
+        </div>
+    </div>
 {% endblock content %}

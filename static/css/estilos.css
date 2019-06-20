@@ -1,40 +1,54 @@
-/* INDEX.HTML */
+/* BASE.HTML */
+
 body {
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 20%, rgba(242,242,242,1) 52%, rgba(237,237,237,1) 99%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(20%, rgba(246,246,246,1)), color-stop(52%, rgba(242,242,242,1)), color-stop(99%, rgba(237,237,237,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 20%, rgba(242,242,242,1) 52%, rgba(237,237,237,1) 99%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 20%, rgba(242,242,242,1) 52%, rgba(237,237,237,1) 99%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 20%, rgba(242,242,242,1) 52%, rgba(237,237,237,1) 99%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 20%, rgba(242,242,242,1) 52%, rgba(237,237,237,1) 99%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
     padding: 20px 10px 10px 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
 .navegacion {
-    background-color: #F1EBE4;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .navegacion a {
+    font-size: 18px;
     text-decoration: none;
 }
 
 .navegacion a:hover {
-    color: rgb(99, 238, 99);
+    color: #E52E04;
 }
 
-.pie {
+.fecha {
     font-size: 12px;
-    padding-top: 500px;
     display: flex;
     justify-content: center;
+ }
+
+/* BLOCK INDEX */
+.test {
+    text-align: center;
 }
 
-.contenido {
+.test h1
+
+.hora {
+    font-size: 12px;
     display: flex;
-    justify-content: center;
+    align-content: center;
 }
 
 /* ABOUT.HTML */
-
-
 
 /* PORTFOLIO.HTML */
 

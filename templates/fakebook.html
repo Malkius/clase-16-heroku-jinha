@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block estilos %}
+    <link rel="stylesheet" href="/static/css/estilos_fakebook.css">
+{% endblock %}
+
+{% block title %}Fakebook{% endblock title %}
+
+{% block content %}
+    <header class="cabecera">
+        <div class="contenido-cabecera">
+            <div class="titulo">
+                <h1>Bienvenidos a Fakebook</h1>
+                <h2>La red social de ti para ti</h2>
+                    <div>
+                        Tus amigos, tus aficiones,... Encuentra personas afines a ti.
+                    </div>
+            </div>
+            <div class="boton-desconexion">
+                <button>Desconectar</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenido-body">
+    <h2 class="mi-perfil">Mi perfil</h2>
+        <div class="contenido-perfil">
+            <div class="perfil">
+                <h2>Incógnito Periódiquez</h2>
+                <img src="static/img/foto perfil redimensionada.jpg" alt="Mi foto de perfil"/>
+            </div>
+            <div class="lista-bio">
+                <div class="lista-titulo">
+                    <ul>
+                        <li><strong>Lugar:</strong></li>
+                        <li><strong>Edad: </strong></li>
+                        <li><strong>Profesión: </strong></li>
+                        <li><strong>Amigos: </strong></li>
+                    </ul>
+                </div>
+                <div class="lista-datos">
+                     <ul>
+                        <li>Calle Larios</li>
+                        <li>Desconocida</li>
+                        <li>Espia</li>
+                        <li>1.000.000</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+            <div class="busca-amigos">
+                <label for="Nombre"><strong>Busca a tus amigos: </strong></label>
+                <input type="text" id="Nombre" name="Nombre">
+            </div>
+    </div>
+
+    <footer class="fake_pie">
+        <div>Todos los derechos reservados &#174;</div>
+    </footer>
+
+{% endblock content %}
